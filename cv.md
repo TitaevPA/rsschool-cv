@@ -21,6 +21,7 @@ I am 35 years old, I work as a design engineer. I love to code. My goal is to ga
 * CSS
 * JavaScript
 * Git
+* Microsoft Visual Studio (MVS) 2010, MVS 2017, MVS 2019, Code Gear C++ Builder 2007, Git
 
 ## Code Example
 
@@ -65,7 +66,15 @@ namespace NeuralNetwork2
 
 ## Education
 
-Samara State University
+
+**Samara State University**
+
+Faculty of Mechanics and Mathematics
+
+specialty: mechanics
+
+Years: 2002 - 2007
+
 
 ## Experience
 
