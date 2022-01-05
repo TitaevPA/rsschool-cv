@@ -1,0 +1,33 @@
+.chapter h2 {
+    font-weight: bold;    
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #defcf9;
+}
+
+img {
+  margin-bottom: 10px;
+  border: 5px solid #cca8e9;
+  border-radius: 10%;
+}
+
+main {
+  display: flex;
+}
+
+.left-col {
+  width: 40%;
+  background-color: #c3bef0;
+}
+
+.right-col {
+  width: 60%;
+  padding: 40px;
+  background-color: #cadefc;
+}
+
+hr {
+	border-top: 1px solid #333
+}
