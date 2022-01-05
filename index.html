@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<header>
+		<h1 class="chapter">Titaev Pavel</h1>
+		<img src="./foto.jpg" alt="Portrait">
+	</header>
+	<main>
+	<div class="left-col">
+		<section class="chapter">
+			<h2>Contacts</h2>
+			<ul>
+				<li>Location:
+				<li>Phone:
+				<li>Email:
+				<li>GitHub:
+			</ul>
+			<hr>
+		</section>
+		<section class="chapter">
+			<h2>Skills</h2>
+				<ul>
+					<li> С\С++
+					<li> С#
+					<li> HTML
+					<li> CSS
+					<li> JavaScript
+					<li> Git
+			</ul>
+			<hr>
+		</section>
+		<section class="chapter">
+			<h2>Language</h2>
+				<ul>
+					<li> <b>Russian</b> - native speaker
+					<li> <b>English</b> - A1
+				</ul>
+		</section>
+	</div>
+	<div class="right-col">
+		<section class="chapter">
+			<h2>About Me</h2>
+			<p>I am 35 years old, I work as a design engineer. I love to code. My goal is to gain knowledge in the field of front-end development. I want to get knowledge and skills that will be enough for employment in a company.</p>
+			<hr>
+		</section>
+		<section class="chapter">
+			<h2>Code Example</h2>
+			<pre><code>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using System.IO;
+
+namespace NeuralNetwork2
+{
+    /// &lt;summary&gt; 
+    /// класс нейронной сети
+    /// &lt;/summary&gt;
+    class NeuralNetwork
+    {
+
+        ...
+
+        /// &lt;summary&gt;
+        /// Установка случайных весовых коэфициентов для сети
+        /// &lt;/summary&gt;
+        public void AssignRandomWeights()
+        {
+
+            for (int i = 0 ; i < INPUT_NEURONS+1 ; i++) 
+            for (int h = 0 ; h < HIDDEN_NEURONS ; h++) 
+                wih[i, h] = rand_weight();
+
+            for (int h = 0 ; h < HIDDEN_NEURONS+1 ; h++) 
+            for (int o = 0 ; o < OUTPUT_NEURONS ; o++) 
+                who[h, o] = rand_weight();
+
+        }
+
+        ...
+
+			</code></pre>
+			<hr>
+		</section>
+		<section class="chapter">
+			<h2>Education</h2>
+			<p>Samara State University</p>
+		</section>
+		<section class="chapter">
+			<h2>Experience</h2>
+			<p>I have been working as a design engineer at JSC RCC (Rocket space center) Progress since 2007.</p>
+		</section>
+	</div>
+    </main>
+</body>
+</html>
