@@ -1,15 +1,33 @@
-.chapter h2 {
+h1 {
     font-weight: bold;    
+    font-size: 36px;
+}
+
+h2 {
+  font-weight: bold;    
+    font-size: 24px;
+}
+
+.h2-left {
+  background-color: #cadefc;
+}
+
+.h2-right {
+  background-color: #c3bef0;
 }
 
 body {
   box-sizing: border-box;
-  background-color: #defcf9;
+  background-color: #6fe2cf;
+}
+
+.no-main {
+  background-color: #f0defc;  
 }
 
 img {
   margin-bottom: 10px;
-  border: 5px solid #cca8e9;
+  border: 5px solid #ff6699;
   border-radius: 10%;
 }
 
@@ -18,16 +36,82 @@ main {
 }
 
 .left-col {
-  width: 40%;
+  width: 35%;
   background-color: #c3bef0;
 }
 
 .right-col {
-  width: 60%;
+  width: 65%;
   padding: 40px;
   background-color: #cadefc;
 }
 
 hr {
 	border-top: 1px solid #333
+}
+
+.navbar-list{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px;
+}
+
+.navbar-link{
+  position: relative;
+  padding: 0 12px;
+  background-color: #c3bef0;
+  padding: 5pt;
+  font-size: large;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+
+.img-link{
+  width: 121px;
+  height: 45px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gh-link{
+  background-image: url("./img/github.png");
+  background-position: center;
+}
+
+div #my_foto{
+  display: flex;
+  justify-content: center;
+  width: 195px;
+  height: 240px;
+}
+
+#my_name {
+  border: 1px solid #ff6699;
+  padding: 10px;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-github {
+  width: 50px;
+  height: 50px;
+}
+
+.img-rsschool {
+  width: 100px;
+  height: 35px; 
 }
